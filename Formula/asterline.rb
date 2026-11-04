@@ -1,30 +1,30 @@
 class Asterline < Formula
   desc "Local-first terminal workspace for coding agent teams (Prime edition)"
   homepage "https://github.com/song0705/Asterline-Prime"
-  version "1.0.6"
+  version "1.0.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.6/asterline-aarch64-apple-darwin.tar.gz"
-      sha256 "0f0176c49f8724a4717cf9c52a0d355b54d2784ad3be5282713daae94e59de96"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-aarch64-apple-darwin.tar.gz"
+      sha256 "7f4afc0f0a71034ddea613393a7efcc1acfd1bc2b4b4da050a5960ba22694044"
     end
 
     on_intel do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.6/asterline-x86_64-apple-darwin.tar.gz"
-      sha256 "c8f2f89c134f313a9834d778d6e46311f359fead15b0216123a45bf253d2ce69"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-x86_64-apple-darwin.tar.gz"
+      sha256 "bd7476bbae1d4a9ba81a1f3d7545fef2b1866dfa6e5221c98804a63b23df4c28"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.6/asterline-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "34bcdd3606e86e3167b25af5ca2fce908e972f1ca0eaee8fb10b53bbf949a8fd"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b8de74cb3d318fa1df87bb3a71fa0f79e166cacfd0b056faacc50674b3f1af1d"
     end
 
     on_intel do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.6/asterline-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3e08df075b6d73e2dae808020ff7ee1422a1e22ae576b5d539d4092d94abeecf"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6748fa9d9fad2c3ad9229fb4671c390d1377b78afd01054cbfc9fae3dc786d3d"
     end
   end
 
