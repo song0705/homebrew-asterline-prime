@@ -17,6 +17,6 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: Homebrew/actions/setup-homebrew@55301c8cac0982bc2fbeb71275fa0b71b963bdb1
       - run: |
-          brew tap song0705/asterline-prime "$GITHUB_WORKSPACE"
+          brew tap song0705/asterline-prime
           brew install --formula song0705/asterline-prime/asterline
           brew test song0705/asterline-prime/asterline
