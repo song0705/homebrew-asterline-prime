@@ -1,9 +1,9 @@
 class Asterline < Formula
   desc "Local-first terminal workspace for coding agent teams (Prime edition)"
   homepage "https://github.com/song0705/Asterline-Prime"
-  url "https://github.com/song0705/Asterline-Prime/archive/refs/tags/prime-v1.0.4.tar.gz"
-  version "1.0.4"
-  sha256 "fc13a3bf3dc69c95ef32c0c1ea1d8d2ff2a375096aab6d66f5335807cafc5c7f"
+  url "https://github.com/song0705/Asterline-Prime/archive/refs/tags/prime-v1.0.5.tar.gz"
+  version "1.0.5"
+  sha256 "0b92754ac6029fae5a029878ec28bbcd4d33b60527b3b115d29b877b36924a9b"
   license "MIT"
 
   depends_on "rust" => :build
