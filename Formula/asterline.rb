@@ -1,30 +1,30 @@
 class Asterline < Formula
   desc "Local-first terminal workspace for coding agent teams (Prime edition)"
   homepage "https://github.com/song0705/Asterline-Prime"
-  version "1.0.7"
+  version "1.0.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-aarch64-apple-darwin.tar.gz"
-      sha256 "7f4afc0f0a71034ddea613393a7efcc1acfd1bc2b4b4da050a5960ba22694044"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.10/asterline-aarch64-apple-darwin.tar.gz"
+      sha256 "29eed8b558e5201648cf8fbecd98af6cd8fff6b49843ffccf9e7f4c29723ac0c"
     end
 
     on_intel do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-x86_64-apple-darwin.tar.gz"
-      sha256 "bd7476bbae1d4a9ba81a1f3d7545fef2b1866dfa6e5221c98804a63b23df4c28"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.10/asterline-x86_64-apple-darwin.tar.gz"
+      sha256 "345d298a1957e9c3fdb8bfb4273d6aa0ba17878c23b2b4d46b58fe1872a8581c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b8de74cb3d318fa1df87bb3a71fa0f79e166cacfd0b056faacc50674b3f1af1d"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.10/asterline-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "31b4f4a72d41c3f5be2d3e4558558dda174a358bf56b63acda3fcfc37f90be50"
     end
 
     on_intel do
-      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.7/asterline-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6748fa9d9fad2c3ad9229fb4671c390d1377b78afd01054cbfc9fae3dc786d3d"
+      url "https://github.com/song0705/Asterline-Prime/releases/download/prime-v1.0.10/asterline-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f6d08b6025781460393d22c351782b9878468dd9d10902e20a1f9e9f8177f509"
     end
   end
 
